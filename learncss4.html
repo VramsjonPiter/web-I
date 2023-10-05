@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learn CSS Part 4</title>
+        <style>
+            a{
+                color: white;
+                text-decoration: none;
+                border: 1px solid deeppink;
+                padding: 10px 20px;
+                background-color: hotpink;
+                font-family: Arial, Helvetica, sans-serif;
+                border-radius: 20px;
+
+
+            }
+            a:link{
+                color: white;
+            }
+            a:visited{
+                color: white;
+            }
+            a:hover{
+                color: white;
+                background-color: deeppink;
+            }
+            a:active{
+                color: deeppink;
+            }
+            a.fti{
+                background-color: green;
+                border-color: green;
+            }
+            a.unai{
+                background-color: blue;
+                border-color: blue;
+            }
+            ul.web{
+                list-style-type: circle;
+                list-style-position: inside;
+                background-color: pink;
+                border: 2px solid black;
+            }
+            ul li{
+                background-color: mintcream;
+            }
+            ul.nav{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 200px;
+                background-color: #f1f1f1;
+            }
+            ul.nav li a{
+                display: block;
+                color: #000;
+                background-color: #f1f1f1;
+                border-radius: 0;
+                border: none;
+                padding: 8px 16px;
+                text-decoration: none;
+
+            }
+            ul.nav li a:hover{
+                background-color: #555;
+                color: white;
+            }
+            
+
+        </style>
+    </head>
+    <body>
+        <h1>Learn CSS Part 4</h1>
+        <a href="https://google.com">Link to google</a>
+        <a class="fti" href="https://fti.unai.edu">Link to FTI UNAI</a>
+        <a class="unai" href="https://unai.edu">Link to UNAI</a>
+
+        <p>My Favorite Foods: </p>
+        <ul class="web">
+            <li>Sate</li>
+            <li>Mie Goreng</li>
+            <li>Bakso</li>
+        </ul>
+        <ul class="nav">
+            <li><a href="learncss2.html">Home</a></li>
+            <li><a href="https://fti.unai.edu">FTI UNAI</a></li>
+            <li><a href="https://unai.edu">UNAI</a></li>
+
+        </ul>
+    </body>
+</html>
